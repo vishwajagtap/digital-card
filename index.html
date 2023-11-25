@@ -8,20 +8,22 @@
 <body>
   <div class="container">
     <div class="card">
-      <img src="book.jpg" alt="Book Image" class="book-image" id="bookImage">
-      <button class="open-button" onclick="openBook()">Open the Book</button>
-      <div class="book hidden" id="bookContent">
-        <img src="boy.jpg" alt="Boy Image" class="boy-image">
-        <button class="speak-button" onclick="showMessage()">I want to say something</button>
-        <div class="message hidden" id="messageContent">
-               <p>Apni baat jyada hoti nahi pata nhi aage bhi kitni hogi</p>
-          <p>dheere dheere vakt ke sath kitna kuch badal gaya</p>
-          <p>I hope hum aise hi age badhte rahe teri language mein grow karte rahe</p>
-          <p>Tu toh pyar se kuch tech vala hoke bhi kuch nhi karta mere liye,</p>
-          <p>toh meine socha mein hi kuch try kar leti hu tere liye</p>
-          <p>Thanks to my guru chatgpt yeh bana liya mein Hello world vali insaan aaj tujhe aise hello bol rahi hu</p>
-          <p>baki tu gadha h humesha se itna hi bolna tha</p>
-          <p>bye bye </p>
+      <button onclick="openBook()" class="button">Open the Book</button>
+      <div class="book hidden" id="book">
+        <img src="book.jpg" alt="Book Image" class="book-image">
+        <img src="boy.jpg" alt="Book Image" class="book-image">
+        <button onclick="showMessage()" class="button">I want to say something</button>
+        <div class="message hidden" id="message">
+          <div class="text-box">
+            <p>Apni baat jyada hoti nahi pata nhi aage bhi kitni hogi</p>
+            <p>dheere dheere vakt ke sath kitna kuch badal gaya</p>
+            <p>I hope hum aise hi age badhte rahe teri language mein grow karte rahe</p>
+            <p>Tu toh pyar se kuch tech vala hoke bhi kuch nhi karta mere liye,</p>
+            <p>toh meine socha mein hi kuch try kar leti hu tere liye</p>
+            <p>Thanks to my guru chatgpt yeh bana liya mein Hello world vali insaan aaj tujhe aise hello bol rahi hu</p>
+            <p>baki tu gadha h humesha se itna hi bolna tha</p>
+            <p>bye bye </p>
+          </div>
         </div>
       </div>
     </div>
