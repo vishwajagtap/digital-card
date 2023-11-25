@@ -1,11 +1,7 @@
 /* Add your styles here */
-body, html {
-  height: 100%;
+body {
   margin: 0;
   padding: 0;
-}
-
-.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,49 +10,32 @@ body, html {
 }
 
 .card {
-  position: relative;
   text-align: center;
   color: white;
 }
 
-.book-image {
-  width: 200px;
-  height: 300px;
-}
-
-.open-button {
-  margin-top: 20px;
+.button {
   background-color: blue;
   color: white;
-  border: none;
   padding: 10px 20px;
-  cursor: pointer;
+  border: none;
   border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
 
+.book-image,
 .boy-image {
-  display: none;
-  width: 150px;
-  height: 200px;
+  width: 300px; /* Adjust as needed */
+  height: 300px; /* Adjust as needed */
 }
 
-.speak-button {
-  display: none;
-  margin-top: 20px;
-  background-color: blue;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.message {
-  display: none;
+.text-box {
   background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 20px;
-  text-align: left;
   color: black;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
 }
