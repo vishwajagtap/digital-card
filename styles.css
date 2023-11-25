@@ -1,4 +1,10 @@
 /* Add your styles here */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -8,15 +14,49 @@
 }
 
 .card {
+  position: relative;
   text-align: center;
   color: white;
 }
 
-.book-cover {
-  width: 200px; /* Adjust this based on the image size */
-  height: 300px; /* Adjust this based on the image size */
+.book-image {
+  width: 200px;
+  height: 300px;
 }
 
-.hidden {
+.open-button {
+  margin-top: 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.boy-image {
   display: none;
+  width: 150px;
+  height: 200px;
+}
+
+.speak-button {
+  display: none;
+  margin-top: 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.message {
+  display: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: left;
+  color: black;
 }
