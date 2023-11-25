@@ -1,7 +1,5 @@
 /* Add your styles here */
-body {
-  margin: 0;
-  padding: 0;
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,28 +12,25 @@ body {
   color: white;
 }
 
-.button {
-  background-color: blue;
-  color: white;
+.open-btn,
+.speak-btn {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  margin-bottom: 20px;
+  background-color: blue;
+  color: white;
   cursor: pointer;
 }
 
-.book-image,
-.boy-image {
-  width: 300px; /* Adjust as needed */
-  height: 300px; /* Adjust as needed */
+.book img,
+.boy img {
+  width: 300px; /* Adjust dimensions to fit your image */
 }
 
-.text-box {
+.message-box {
   background-color: white;
-  color: black;
   padding: 20px;
-}
-
-.hidden {
-  display: none;
+  border-radius: 10px;
+  text-align: left;
+  color: black;
 }
