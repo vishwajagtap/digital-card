@@ -1,25 +1,14 @@
 function openBook() {
-  const bookImage = document.getElementById('bookImage');
-  const bookContent = document.getElementById('bookContent');
-  const openButton = document.querySelector('.open-button');
+  const book = document.getElementById('book');
+  const bookImage = document.querySelector('.book-image');
 
-  // Hide the book image and open button
-  bookImage.style.display = 'none';
-  openButton.style.display = 'none';
-
-  // Show the book content
-  bookContent.classList.remove('hidden');
+  document.querySelector('.button').style.display = 'none';
+  book.style.backgroundImage = 'url("book_image.jpg")';
+  bookImage.classList.remove('hidden');
+  document.querySelector('.button.hidden').classList.remove('hidden');
 }
 
-function showMessage() {
-  const boyImage = document.querySelector('.boy-image');
-  const speakButton = document.querySelector('.speak-button');
-  const messageContent = document.getElementById('messageContent');
-
-  // Show the boy image and speak button
-  boyImage.style.display = 'block';
-  speakButton.style.display = 'block';
-
-  // Show the message content
-  messageContent.classList.remove('hidden');
+function showBoyAndText() {
+  document.getElementById('boy').classList.remove('hidden');
+  document.getElementById('message').classList.remove('hidden');
 }
