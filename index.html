@@ -8,15 +8,12 @@
 <body>
   <div class="container">
     <div class="card">
-      <button onclick="openBook()" class="button">Open the Book</button>
+      <button class="open-btn" onclick="openBook()">Open the Book</button>
       <div class="book hidden" id="book">
-        <img src="book.jpg" alt="Book Image" class="book-image">
-        <button onclick="showBoyAndText()" class="button hidden">I want to say something</button>
-        <div class="boy hidden" id="boy">
-          <img src="boy.jpg" alt="Boy Image" class="boy-image">
-        </div>
+        <img src="book.jpg" alt="Book Image">
+        <button class="speak-btn hidden" onclick="openMessage()">I Want to Say Something</button>
         <div class="message hidden" id="message">
-          <div class="text-box">
+          <div class="message-box">
             <p>Apni baat jyada hoti nahi pata nhi aage bhi kitni hogi</p>
             <p>dheere dheere vakt ke sath kitna kuch badal gaya</p>
             <p>I hope hum aise hi age badhte rahe teri language mein grow karte rahe</p>
@@ -27,6 +24,9 @@
             <p>bye bye </p>
           </div>
         </div>
+      </div>
+      <div class="boy hidden" id="boy">
+        <img src="boy.jpg" alt="Boy Image">
       </div>
     </div>
   </div>
