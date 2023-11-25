@@ -8,7 +8,7 @@
 <body>
   <div class="container">
     <div class="card">
-      <img src="your_loved_ones_image.jpg" alt="Loved One's Image">
+      <img src="cuteboy.jpg" alt="Loved One's Image">
       <button onclick="openBook()">Open the Book</button>
       <div class="book hidden" id="book">
         <div class="page">
