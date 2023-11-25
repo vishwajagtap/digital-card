@@ -6,20 +6,17 @@
   height: 100vh;
   background-color: black;
 }
+
 .card {
   text-align: center;
   color: white;
 }
-.book {
-  background-color: white;
-  height: 300px;
-  width: 200px;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+
+.book-cover {
+  width: 200px; /* Adjust this based on the image size */
+  height: 300px; /* Adjust this based on the image size */
 }
+
 .hidden {
   display: none;
 }
